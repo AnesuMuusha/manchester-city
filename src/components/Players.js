@@ -1,15 +1,15 @@
 import React from 'react'
 import image1 from "../images/1.jpg";
 import image2 from "../images/2.jpg";
-import image3 from "../images/3.jpg";
+import image3 from "../images/4.jpg";
 import image4 from "../images/4.jpeg";
 
 const Players=()=>{
   return (
-    <div className="m-2 bg-slate-100">
+    <div className="m-2 bg-slate-100  lg:m- lg:text-xl xl:text-3xl xl:mx-11/12 lg:px-16">
     <div className="p-1"> 
-      <div className="font-bold ">Manchester city</div>
-      <div className="mt-6">
+      <div className="font-bold lg:flex lg:justify-center ">Manchester city</div>
+      <div className="mt-6 md:flex">
       <div className="">
         <img src={image1} alt=""></img>
       </div>
@@ -25,7 +25,7 @@ const Players=()=>{
       </div>
     </div>
     </div> 
-    <div className="mt-6">
+    <div className="mt-6 md:flex">
       <div className="">
         <img src={image2} alt=""></img>
       </div>
@@ -42,7 +42,8 @@ const Players=()=>{
     </div>
     </div>
     
-    <div className=" mt-6">
+    
+    <div className=" mt-6 md:flex">
       <div className=" ">
         <img src={image3} alt=""></img>
       </div>
@@ -59,7 +60,7 @@ const Players=()=>{
     </div>
     </div>
     
-    <div className=" mt-6">
+    <div className=" mt-6 md:flex">
       <div className=" ">
         <img src={image4} alt=""></img>
       </div>
