@@ -1,11 +1,18 @@
 import React from "react";
 import Players from "./components/Players";
+import Home from "./components/Home";
+
 function App() {
+
   return (
 <div>
-  <Players></Players>
+
+  <Home/>
+  <Players/>
+
 </div>
-  );
+
+);
 }
 
 export default App;
