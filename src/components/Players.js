@@ -6,10 +6,10 @@ import image4 from "../images/4.jpeg";
 
 const Players = () => {
   return (
-    <div className="m-2 bg-slate-100  lg:m- lg:text-xl xl:text-3xl xl:mx-11/12 lg:px-16">
+    <div id="players" className="m-2 bg-slate-100  lg:m- lg:text-xl xl:text-3xl xl:mx-11/12 lg:px-16">
       <div className="p-1">
-        <div className="font-bold lg:flex lg:justify-center ">
-          Manchester city
+        <div className="font-bold lg:flex lg:justify-center flex justify-center">
+          Top Four Players
         </div>
 
         <div className="mt-6 md:flex">
