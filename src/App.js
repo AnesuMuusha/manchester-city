@@ -3,6 +3,7 @@ import Players from "./components/Players";
 import Home from "./components/Home";
 import History from "./components/History";
 import NavBar from "./components/NavBar";
+import Squad from "./components/squad/Squad";
 
 function App() {
 
@@ -10,9 +11,9 @@ function App() {
 <div>
 <NavBar/>
   <Home/>
+  <Squad/>
   <Players/>
   <History/>
-
 </div>
 
 );
