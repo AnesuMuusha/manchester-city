@@ -13,6 +13,9 @@ function NavBar() {
           <a href="#home"> Home</a>
         </li>
         <li className="mr-3">
+          <a href="#squad"> Squad</a>
+        </li>
+        <li className="mr-3">
           <a href="#players"> Players</a>
         </li>
         <li className="mr-3">
