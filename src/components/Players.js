@@ -9,7 +9,7 @@ const Players = () => {
     <div id="players" className="m-2 bg-slate-100  lg:m- lg:text-xl xl:text-3xl xl:mx-11/12 lg:px-16">
       <div className="p-1">
         <div className="font-bold lg:flex lg:justify-center flex justify-center">
-          Top Four Players
+          <button className="border border-blue-400 p-1 rounded bg-blue-300">Top four players</button>
         </div>
 
         <div className="mt-6 md:flex">
